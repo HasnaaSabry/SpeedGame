@@ -31,4 +31,4 @@ function press(){
     
     
 }  
-        document.addEventListener("keypress", press);
+        document.onkeypress=press;
